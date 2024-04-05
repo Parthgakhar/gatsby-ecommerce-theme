@@ -97,6 +97,13 @@ const ShopPage = (props) => {
 };
 
 export default ShopPage;
-
+export function Head() {
+  return (
+    <>
+    <title>Hello World</title>
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+ </>
+)
+}
    
 
