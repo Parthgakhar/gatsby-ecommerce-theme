@@ -97,3 +97,11 @@ const ShopPage = (props) => {
 };
 
 export default ShopPage;
+export function Head() {
+  return (
+    <title>Hello World</title>
+ <script type="text/javascript" id="vwoCode">
+      console.log("hello")
+    </script>
+  )
+}
