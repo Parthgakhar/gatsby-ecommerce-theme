@@ -102,6 +102,12 @@ export function Head() {
     <>
     <title>Hello World</title>
     <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+     <script dangerouslySetInnerHTML={{
+        __html: `
+          console.log("This is the test, and you passed!");
+          (function(w, d, s) { ... script code ... })(w, d, s);
+        `
+      }}/>
  </>
 )
 }
