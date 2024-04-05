@@ -101,7 +101,7 @@ export function Head() {
   return (
     <>
     <title>Hello World</title>
-    <Link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
  </>
 )
 }
