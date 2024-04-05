@@ -64,7 +64,7 @@ export const Head = () => (
       id="vwoCode"
       dangerouslySetInnerHTML={{ __html: `
       window._vwo_code || (function() {
-      var account_id=806029,
+      var account_id=579358,
       version=2.1,
       settings_tolerance=500,
       hide_element='body',
