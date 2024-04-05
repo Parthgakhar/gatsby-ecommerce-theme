@@ -4,8 +4,7 @@ export function onRenderBody({ setHeadComponents, setPreBodyComponents, setPostB
 
     // Add something into <head>
     setHeadComponents([
-      <Link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
-    <script type="text/javascript" id="vwoCode" dangerouslySetInnerHTML={{ __html: ` console.log("heelo")'`}} />,
+    <script  dangerouslySetInnerHTML={{ __html: ` console.log("heelo")'`}} />,
     ]);
 
 }
