@@ -1,4 +1,4 @@
-const SMARTCODE = () => {
+const Smartcode = () => {
 return (
     <>
     <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
@@ -18,4 +18,4 @@ return (
  </>
 )
 }
-export default SMARTCODE;
+export default Smartcode;
