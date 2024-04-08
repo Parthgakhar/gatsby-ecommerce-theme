@@ -13,6 +13,7 @@ import Button from '../components/Button';
 
 import Config from '../config.json';
 import { generateMockProductData } from '../helpers/mock';
+import Smartcode from '../components/Smartcode';
 
 const ShopV2Page = (props) => {
   const data = generateMockProductData(9, 'woman');
