@@ -98,8 +98,8 @@ const ShopPage = (props) => {
 };
 
 export default ShopPage;
-export function Head() {
-<Smartcode />
-}
+export const Head = () => (
+  <Smartcode />
+)
    
 
