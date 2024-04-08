@@ -99,7 +99,7 @@ const ShopPage = (props) => {
 
 export default ShopPage;
 export function Head() {
-<SMARTCODE />
+<Smartcode />
 }
    
 
